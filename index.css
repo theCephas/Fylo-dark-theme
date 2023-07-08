@@ -32,6 +32,7 @@
  }
 
  nav img {
+        margin-top: -12px;
          width: 120px;
  }
 
@@ -41,10 +42,11 @@
          display: flex;
          font-weight: 500;
          color: hsla(0, 0%, 100%, .6);
-         font-size: 1rem;
+         font-size: .8rem;
  }
 
  ul li {
+        padding-top: px;
          padding-left: 25px;
  }
 
@@ -86,16 +88,17 @@
  .intro-talk>p {
          color: hsla(0, 0%, 100%, .8);
          line-height: 30px;
-         font-size: 1.2rem;
+         font-size: 1rem;
          padding-bottom: 20px;
  }
 
  .intro-talk>button {
          color: hsl(0, 0%, 100%);
+         border: 0;
          border-radius: 50px;
          padding: 20px 80px;
          background-color: hsl(198, 60%, 50%);
-         font-size: 1.3rem;
+         font-size: 1.1rem;
          font-weight: 600;
  }
 
@@ -128,7 +131,7 @@
          text-align: center;
          padding-top: 40px;
          padding-bottom: 10px;
-         font-size: 1.5rem;
+         font-size: 1.2rem;
          font-weight: 700;
  }
 
@@ -139,7 +142,7 @@
  .ill5 p {
          text-align: center;
          color: hsla(0, 0%, 100%, .7);
-         font-size: 1.2rem;
+         font-size: 1rem;
          line-height: 20px;
          font-weight: 400;
  }
@@ -156,7 +159,7 @@
 
  .ill6 p {
          color: hsla(0, 0%, 100%, .7);
-         font-size: 1.2rem;
+         font-size: 1rem;
          font-weight: 400;
          padding-bottom: 20px;
  }
@@ -164,7 +167,8 @@
  .ill6 .fyloWorks {
          display: flex;
          border-bottom: solid 1px;
-         width: 160px;
+         font-size: .9;
+         width: 130px;
          padding-bottom: 6px;
          color: hsl(176, 68%, 64%);
  }
@@ -173,7 +177,7 @@
          padding-top: 1px;
          padding-bottom: 0px;
          padding-left: 5px;
-         width: 30px;
+         width: 20px;
          
  }
  .ill6 .fyloWorks:hover{
@@ -201,7 +205,7 @@
         
 }
 .card .cardP{
-        font-size: 1rem;
+        font-size: .8rem;
         color: hsla(0, 0%, 100%, .7);
         padding-bottom: 30px;
         line-height: 20px;
@@ -218,14 +222,14 @@
         padding-left: 20px;
         padding-top: 5px;
         color: hsla(0, 0%, 100%, .7);
-        font-size: .8rem;
+        font-size: .7rem;
         letter-spacing: 1px;
 }
 .crd{
         margin-top: 30px;
 }
 .profile .name{
-        font-size: 1.2rem;
+        font-size: .9rem;
         color: hsl(0, 0%, 100%);
         font-weight: 700;
         font-family: 'Raleway', sans-serif;
@@ -238,6 +242,8 @@
         padding: 40px 30px;
         border-radius: 10px;
         width: auto;
+        position: absolute;
+        margin-bottom: 50px;
         margin-left: 20px;
         margin-right: 20px;
 }
@@ -251,6 +257,7 @@ h5{
 .section6 p{
         color: hsla(0, 0%, 100%, .7);
         padding-bottom: 15px;
+        line-height: 20px;
         text-align: center;
 }
 .mail{
@@ -260,15 +267,16 @@ h5{
 }
 .mail input{
         border: 0;
-        padding: 25px;
+        padding: 20px;
         border-radius: 30px;
         margin-top: 30px;
         margin-bottom: 35px;
         font-size: .8rem;
 }
 .mail button{
-        padding: 25px;
+        padding: 20px;
         text-align: center;
+        border: 0;
         border-radius: 30px;
         background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
         color: hsl(0, 0%, 100%);
@@ -282,9 +290,120 @@ h5{
 }
 
 
+footer{
+        background-color: hsl(216, 53%, 9%);
+        margin-top: 400px;
+        padding: 30px;
+        padding-top: 200px;
+}
+footer>img{
+        width: 120px;
+        margin-left: 20px;
+}
+footer p{
+        color: hsla(0, 0%, 100%, .7);
+        line-height: 20px;
+}
+.last-sct{
+        padding-top: 30px;
+}
+.last-sct .location{
+        display: flex;
+        font-size: 1.1rem;
+}
+.last-sct .location>.loc-img{
+        margin-top: 6px;
+        margin-right: 20px;
+}
+.phone{
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 25px;
+}
+.phone-img{
+        margin-right: 20px;
+}
+.email{
+        display: flex;
+        margin-bottom: 25px;
+}
+.email-img{
+        margin-top: 3px;
+        margin-right: 20px;
+}
+.details{
+        margin-bottom: 25px;
+}
+.details > p{
+        padding-top: 5px;
+}
+.details p:hover{
+        color: hsl(0, 0%, 100%);
+        text-decoration: underline;
+        cursor: pointer;
+}
 
+.docs{
+        margin-bottom: 25px;
+}
+.docs > p{
+        padding-top: 5px;
+}
+.docs p:hover{
+        color: hsl(0, 0%, 100%);
+        text-decoration: underline;
+        cursor: pointer;
+}
 
-
+.icons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 22px;
+}
+.fb-icon{
+        width: 40px;
+        padding: 5px; 
+        margin-right: 20px;    
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: none;
+        cursor: pointer;
+}
+.fb-icon .fb-path:hover{
+        fill: hsl(176, 68%, 64%);
+}
+.fb-icon:hover{
+        border: 1px solid hsl(176, 68%, 64%);
+}
+.twt-icon{
+        width: 40px;
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: none;
+        cursor: pointer;
+}
+.twt-icon .twt-path:hover{
+        fill: hsl(176, 68%, 64%);
+}
+.twt-icon:hover{
+        border: 1px solid hsl(176, 68%, 64%);
+}
+.int-icon{
+        width: 40px;
+        padding: 10px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: none;
+        cursor: pointer;
+}
+.int-icon .int-path:hover{
+        fill: hsl(176, 68%, 64%);
+}
+.int-icon:hover{
+        border: 1px solid hsl(176, 68%, 64%);
+}
  .attribution {
          font-size: 11px;
          text-align: center;
@@ -292,4 +411,5 @@ h5{
 
  .attribution a {
          color: hsl(228, 45%, 44%);
+         text-decoration: none;
  }
