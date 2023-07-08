@@ -1,0 +1,295 @@
+ * {
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+ }
+
+ body {
+         width: 100%;
+         min-height: 100vh;
+         font-family: 'Open Sans', sans-serif;
+         background-color: hsl(218, 28%, 13%);
+ }
+
+ header {
+         position: relative;
+         background-color: hsl(217, 28%, 15%);
+         background-image: url("./images/bg-curvy-mobile.svg");
+         background-repeat: no-repeat;
+         background-position: bottom;
+         background-size: contain;
+         padding: 30px;
+         padding-top: 50px;
+         min-height: 50rem;
+         width: 100%;
+ }
+
+ nav {
+         display: flex;
+         justify-content: space-between;
+         font-family: 'Raleway', sans-serif;
+
+ }
+
+ nav img {
+         width: 120px;
+ }
+
+ ul {
+         text-decoration: none;
+         list-style-type: none;
+         display: flex;
+         font-weight: 500;
+         color: hsla(0, 0%, 100%, .6);
+         font-size: 1rem;
+ }
+
+ ul li {
+         padding-left: 25px;
+ }
+
+ ul li:hover {
+         color: hsl(0, 0%, 100%);
+         text-decoration: underline;
+         cursor: pointer;
+ }
+
+ .section1 {
+         margin-top: 30%;
+
+ }
+
+ .section1 div>img {
+         display: flex;
+         width: 100%;
+         margin: auto;
+
+ }
+
+ .intro-talk {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         padding-top: 100px;
+         width: 100%;
+         font-family: 'Open Sans', sans-serif;
+ }
+
+ .intro-talk>h1 {
+         color: hsl(0, 0%, 100%);
+         font-size: 2rem;
+         line-height: 35px;
+         padding-bottom: 20px;
+ }
+
+ .intro-talk>p {
+         color: hsla(0, 0%, 100%, .8);
+         line-height: 30px;
+         font-size: 1.2rem;
+         padding-bottom: 20px;
+ }
+
+ .intro-talk>button {
+         color: hsl(0, 0%, 100%);
+         border-radius: 50px;
+         padding: 20px 80px;
+         background-color: hsl(198, 60%, 50%);
+         font-size: 1.3rem;
+         font-weight: 600;
+ }
+
+ .intro-talk>button:hover {
+         cursor: pointer;
+         background-color: hsl(198, 76%, 64%);
+ }
+
+ main {
+         background-color: hsl(218, 28%, 13%);
+         padding: 30px;
+         padding-top: 20px;
+ }
+
+ .ill1,
+ .ill2,
+ .ill3,
+ .ill4,
+ .ill5 {
+         display: flex;
+         flex-direction: column;
+         margin: auto;
+         align-items: center;
+         justify-content: center;
+         padding-top: 70px;
+ }
+
+ h3 {
+         color: hsl(0, 0%, 100%);
+         text-align: center;
+         padding-top: 40px;
+         padding-bottom: 10px;
+         font-size: 1.5rem;
+         font-weight: 700;
+ }
+
+ .ill1,
+ .ill2,
+ .ill3,
+ .ill4,
+ .ill5 p {
+         text-align: center;
+         color: hsla(0, 0%, 100%, .7);
+         font-size: 1.2rem;
+         line-height: 20px;
+         font-weight: 400;
+ }
+
+ .ill5>img {
+         width: 100%;
+         margin-top: 70px;
+         margin-bottom: 30px;
+ }
+
+ .ill6 h3 {
+         padding-bottom: 20px;
+ }
+
+ .ill6 p {
+         color: hsla(0, 0%, 100%, .7);
+         font-size: 1.2rem;
+         font-weight: 400;
+         padding-bottom: 20px;
+ }
+
+ .ill6 .fyloWorks {
+         display: flex;
+         border-bottom: solid 1px;
+         width: 160px;
+         padding-bottom: 6px;
+         color: hsl(176, 68%, 64%);
+ }
+
+ .ill6 .fyloWorks svg {
+         padding-top: 1px;
+         padding-bottom: 0px;
+         padding-left: 5px;
+         width: 30px;
+         
+ }
+ .ill6 .fyloWorks:hover{
+        border-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+ }
+ .ill6  .fyloWorks:hover svg use{
+        fill: hsl(0, 0%, 100%);
+ }
+ 
+
+.section5{
+        padding-top: 180px;
+}
+.section5 .quotes{
+        margin-bottom: -5px;
+        width: 50px;
+}
+.card{
+        background-color: hsl(219, 30%, 18%);
+        padding: 40px 30px;
+        width: auto;
+        border-radius: 10px;
+        
+}
+.card .cardP{
+        font-size: 1rem;
+        color: hsla(0, 0%, 100%, .7);
+        padding-bottom: 30px;
+        line-height: 20px;
+}
+.profile{
+        display: flex;
+
+}
+.profile img{
+        border-radius: 50%;
+        width: 50px;
+}
+.profile p{
+        padding-left: 20px;
+        padding-top: 5px;
+        color: hsla(0, 0%, 100%, .7);
+        font-size: .8rem;
+        letter-spacing: 1px;
+}
+.crd{
+        margin-top: 30px;
+}
+.profile .name{
+        font-size: 1.2rem;
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 2px;
+}
+
+.section6{
+        background-color: hsl(219, 30%, 18%);
+        margin-top: 170px;
+        padding: 40px 30px;
+        border-radius: 10px;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+h5{
+        font-size: 1.5rem;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        padding-bottom: 15px;
+}
+.section6 p{
+        color: hsla(0, 0%, 100%, .7);
+        padding-bottom: 15px;
+        text-align: center;
+}
+.mail{
+        display: flex;
+        flex-direction: column;
+        
+}
+.mail input{
+        border: 0;
+        padding: 25px;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        font-size: .8rem;
+}
+.mail button{
+        padding: 25px;
+        text-align: center;
+        border-radius: 30px;
+        background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+}
+.mail button:hover{
+        cursor: pointer;
+        background-image: linear-gradient(to right, hsl(176, 88%, 77%), hsl(198, 74%, 67%));
+}
+
+
+
+
+
+ .attribution {
+         font-size: 11px;
+         text-align: center;
+ }
+
+ .attribution a {
+         color: hsl(228, 45%, 44%);
+ }
