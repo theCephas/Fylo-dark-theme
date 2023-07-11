@@ -329,7 +329,7 @@
  }
 
  .last-sct .location>p {
-         font-size: 1rem;
+         font-size: .9remrem;
  }
 
  .last-sct .location>.loc-img {
@@ -339,8 +339,8 @@
 
  .phone {
          display: flex;
-         margin-top: 25px;
-         margin-bottom: 25px;
+         font-size: .9rem;
+         margin-top: 35px;
  }
 
  .phone-img {
@@ -348,8 +348,10 @@
  }
 
  .email {
+        font-size: .9rem;
          display: flex;
-         margin-bottom: 25px;
+         margin-bottom: 40px;
+         margin-top: 10px;
  }
 
  .email-img {
@@ -358,10 +360,11 @@
  }
 
  .details {
-         margin-bottom: 25px;
+         margin-bottom: 40px;
  }
 
  .details>p {
+        font-size: .9rem;
          padding-top: 5px;
  }
 
@@ -372,11 +375,12 @@
  }
 
  .docs {
-         margin-bottom: 25px;
+         margin-bottom: 35px;
  }
 
  .docs>p {
          padding-top: 5px;
+         font-size: .9rem;
  }
 
  .docs p:hover {
@@ -388,7 +392,7 @@
  .icons {
          display: flex;
          justify-content: center;
-         margin-bottom: 22px;
+         margin-bottom: 30px;
  }
 
  .fb-icon {
