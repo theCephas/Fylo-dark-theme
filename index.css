@@ -32,7 +32,7 @@
  }
 
  nav img {
-        margin-top: -12px;
+         margin-top: -12px;
          width: 120px;
  }
 
@@ -46,7 +46,7 @@
  }
 
  ul li {
-        padding-top: px;
+         padding-top: px;
          padding-left: 25px;
  }
 
@@ -165,245 +165,252 @@
  }
 
  .ill6 .fyloWorks {
-         display: flex;
-         border-bottom: solid 1px;
-         font-size: .9;
-         width: 130px;
+         /* display: flex; */
+         border-bottom: 1px solid hsl(176, 68%, 64%);
+         font-size: .9rem;
+         width: 11rem;
          padding-bottom: 6px;
          color: hsl(176, 68%, 64%);
  }
 
  .ill6 .fyloWorks svg {
-         padding-top: 1px;
          padding-bottom: 0px;
          padding-left: 5px;
          width: 20px;
-         
+
  }
- .ill6 .fyloWorks:hover{
-        border-color: hsl(0, 0%, 100%);
-        color: hsl(0, 0%, 100%);
-        cursor: pointer;
+
+ .ill6 .fyloWorks:hover {
+         border-color: hsl(0, 0%, 100%);
+         color: hsl(0, 0%, 100%);
+         cursor: pointer;
  }
- .ill6  .fyloWorks:hover svg use{
-        fill: hsl(0, 0%, 100%);
+
+ .ill6 .fyloWorks:hover svg use {
+         fill: hsl(0, 0%, 100%);
  }
- 
-
-.section5{
-        padding-top: 180px;
-}
-.section5 .quotes{
-        margin-bottom: -5px;
-        width: 50px;
-}
-.card{
-        background-color: hsl(219, 30%, 18%);
-        padding: 40px 30px;
-        width: auto;
-        border-radius: 10px;
-        
-}
-.card .cardP{
-        font-size: .8rem;
-        color: hsla(0, 0%, 100%, .7);
-        padding-bottom: 30px;
-        line-height: 20px;
-}
-.profile{
-        display: flex;
-
-}
-.profile img{
-        border-radius: 50%;
-        width: 50px;
-}
-.profile p{
-        padding-left: 20px;
-        padding-top: 5px;
-        color: hsla(0, 0%, 100%, .7);
-        font-size: .7rem;
-        letter-spacing: 1px;
-}
-.crd{
-        margin-top: 30px;
-}
-.profile .name{
-        font-size: .9rem;
-        color: hsl(0, 0%, 100%);
-        font-weight: 700;
-        font-family: 'Raleway', sans-serif;
-        letter-spacing: 2px;
-}
-
-.section6{
-        background-color: hsl(219, 30%, 18%);
-        margin-top: 170px;
-        padding: 40px 30px;
-        border-radius: 10px;
-        width: auto;
-        position: absolute;
-        margin-bottom: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
-}
-
-h5{
-        font-size: 1.5rem;
-        color: hsl(0, 0%, 100%);
-        text-align: center;
-        padding-bottom: 15px;
-}
-.section6 p{
-        color: hsla(0, 0%, 100%, .7);
-        padding-bottom: 15px;
-        line-height: 20px;
-        text-align: center;
-}
-.mail{
-        display: flex;
-        flex-direction: column;
-        
-}
-.mail input{
-        border: 0;
-        padding: 20px;
-        border-radius: 30px;
-        margin-top: 30px;
-        margin-bottom: 35px;
-        font-size: .8rem;
-}
-.mail button{
-        padding: 20px;
-        text-align: center;
-        border: 0;
-        border-radius: 30px;
-        background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-        color: hsl(0, 0%, 100%);
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-        font-weight: 700;
-}
-.mail button:hover{
-        cursor: pointer;
-        background-image: linear-gradient(to right, hsl(176, 88%, 77%), hsl(198, 74%, 67%));
-}
 
 
-footer{
-        background-color: hsl(216, 53%, 9%);
-        margin-top: 400px;
-        padding: 30px;
-        padding-top: 200px;
-}
-footer>img{
-        width: 120px;
-        margin-left: 20px;
-}
-footer p{
-        color: hsla(0, 0%, 100%, .7);
-        line-height: 20px;
-}
-.last-sct{
-        padding-top: 30px;
-}
-.last-sct .location{
-        display: flex;
-        font-size: 1.1rem;
-}
-.last-sct .location>.loc-img{
-        margin-top: 6px;
-        margin-right: 20px;
-}
-.phone{
-        display: flex;
-        margin-top: 25px;
-        margin-bottom: 25px;
-}
-.phone-img{
-        margin-right: 20px;
-}
-.email{
-        display: flex;
-        margin-bottom: 25px;
-}
-.email-img{
-        margin-top: 3px;
-        margin-right: 20px;
-}
-.details{
-        margin-bottom: 25px;
-}
-.details > p{
-        padding-top: 5px;
-}
-.details p:hover{
-        color: hsl(0, 0%, 100%);
-        text-decoration: underline;
-        cursor: pointer;
-}
+ .section5 {
+         padding-top: 180px;
+ }
 
-.docs{
-        margin-bottom: 25px;
-}
-.docs > p{
-        padding-top: 5px;
-}
-.docs p:hover{
-        color: hsl(0, 0%, 100%);
-        text-decoration: underline;
-        cursor: pointer;
-}
+ .section5 .quotes {
+         margin-bottom: -5px;
+         width: 50px;
+ }
 
-.icons{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 22px;
-}
-.fb-icon{
-        width: 40px;
-        padding: 5px; 
-        margin-right: 20px;    
-        border-radius: 50%;
-        border: 1px solid white;
-        background-color: none;
-        cursor: pointer;
-}
-.fb-icon .fb-path:hover{
-        fill: hsl(176, 68%, 64%);
-}
-.fb-icon:hover{
-        border: 1px solid hsl(176, 68%, 64%);
-}
-.twt-icon{
-        width: 40px;
-        padding: 10px;
-        margin-right: 20px;
-        border-radius: 50%;
-        border: 1px solid white;
-        background-color: none;
-        cursor: pointer;
-}
-.twt-icon .twt-path:hover{
-        fill: hsl(176, 68%, 64%);
-}
-.twt-icon:hover{
-        border: 1px solid hsl(176, 68%, 64%);
-}
-.int-icon{
-        width: 40px;
-        padding: 10px;
-        border-radius: 50%;
-        border: 1px solid white;
-        background-color: none;
-        cursor: pointer;
-}
-.int-icon .int-path:hover{
-        fill: hsl(176, 68%, 64%);
-}
-.int-icon:hover{
-        border: 1px solid hsl(176, 68%, 64%);
-}
+ .card {
+         background-color: hsl(219, 30%, 18%);
+         padding: 40px 30px;
+         width: auto;
+         border-radius: 10px;
+
+ }
+
+ .card .cardP {
+         font-size: .8rem;
+         color: hsla(0, 0%, 100%, .7);
+         padding-bottom: 30px;
+         line-height: 20px;
+ }
+
+ .profile {
+         display: flex;
+
+ }
+
+ .profile img {
+         border-radius: 50%;
+         width: 50px;
+ }
+
+ .profile p {
+         padding-left: 20px;
+         padding-top: 5px;
+         color: hsla(0, 0%, 100%, .7);
+         font-size: .7rem;
+         letter-spacing: 1px;
+ }
+
+ .crd {
+         margin-top: 30px;
+ }
+
+ .profile .name {
+         font-size: .9rem;
+         color: hsl(0, 0%, 100%);
+         font-weight: 700;
+         font-family: 'Raleway', sans-serif;
+         letter-spacing: 2px;
+ }
+
+ .section6 {
+         background-color: hsl(219, 30%, 18%);
+         padding: 40px 30px;
+         border-radius: 10px;
+         width: auto;
+         position: relative;
+         margin-top: 200px;
+         margin-left: 20px;
+         margin-right: 20px;
+ }
+
+ h5 {
+         font-size: 1.5rem;
+         color: hsl(0, 0%, 100%);
+         text-align: center;
+         padding-bottom: 15px;
+ }
+
+ .section6 p {
+         color: hsla(0, 0%, 100%, .7);
+         padding-bottom: 15px;
+         line-height: 20px;
+         text-align: center;
+ }
+
+ .mail {
+         display: flex;
+         flex-direction: column;
+
+ }
+
+ .mail input {
+         border: 0;
+         padding: 20px;
+         border-radius: 30px;
+         font-size: .8rem;
+         margin-top: 20px;
+         margin-bottom: 20px;
+ }
+
+
+ .mail .button {
+         padding: 20px;
+         text-align: center;
+         border: 0;
+         border-radius: 30px;
+         background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+         color: hsl(0, 0%, 100%);
+         font-size: 1.2rem;
+         letter-spacing: 1px;
+         font-weight: 700;
+
+ }
+
+ .mail .button:hover {
+         cursor: pointer;
+         background-image: linear-gradient(to right, hsl(176, 88%, 77%), hsl(198, 74%, 67%));
+ }
+
+
+ footer {
+
+         background-color: hsl(216, 53%, 9%);
+         margin-top: -160px;
+         padding: 30px;
+         padding-top: 200px;
+ }
+
+ footer>img {
+         width: 120px;
+         margin-left: 20px;
+         margin-top: 50px;
+ }
+
+ footer p {
+         color: hsla(0, 0%, 100%, .7);
+         line-height: 20px;
+ }
+
+ .last-sct {
+         padding-top: 30px;
+ }
+
+ .last-sct .location {
+         display: flex;
+         font-size: 1.1rem;
+ }
+
+ .last-sct .location>p {
+         font-size: 1rem;
+ }
+
+ .last-sct .location>.loc-img {
+         margin-top: 6px;
+         margin-right: 20px;
+ }
+
+ .phone {
+         display: flex;
+         margin-top: 25px;
+         margin-bottom: 25px;
+ }
+
+ .phone-img {
+         margin-right: 20px;
+ }
+
+ .email {
+         display: flex;
+         margin-bottom: 25px;
+ }
+
+ .email-img {
+         margin-top: 3px;
+         margin-right: 20px;
+ }
+
+ .details {
+         margin-bottom: 25px;
+ }
+
+ .details>p {
+         padding-top: 5px;
+ }
+
+ .details p:hover {
+         color: hsl(0, 0%, 100%);
+         text-decoration: underline;
+         cursor: pointer;
+ }
+
+ .docs {
+         margin-bottom: 25px;
+ }
+
+ .docs>p {
+         padding-top: 5px;
+ }
+
+ .docs p:hover {
+         color: hsl(0, 0%, 100%);
+         text-decoration: underline;
+         cursor: pointer;
+ }
+
+ .icons {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 22px;
+ }
+
+ .fb-icon, .twt-icon, .int-icon {
+         padding: 5px 10px; 
+         margin-right: 20px;
+         border-radius: 50%;
+         border: 1px solid white;
+         background-color: none;
+         cursor: pointer;
+ }
+
+ .fb-icon:hover, .int-icon:hover, .twt-icon:hover {
+         color: hsl(176, 68%, 64%);
+         border: 1px solid hsl(176, 68%, 64%);
+ }
+
+
  .attribution {
          font-size: 11px;
          text-align: center;
@@ -412,4 +419,124 @@ footer p{
  .attribution a {
          color: hsl(228, 45%, 44%);
          text-decoration: none;
+ }
+
+ @media screen and (min-width: 600px) {
+         nav img {
+                 width: 150px;
+         }
+
+         nav ul li {
+                 font-size: 1.2rem;
+         }
+
+         header {
+                 background-image: url("./images/bg-curvy-desktop.svg");
+         }
+
+         .section1 {
+                 margin-top: 60px;
+         }
+
+         .section1 div>img {
+                 width: 550px;
+         }
+
+         .intro-talk>h1 {
+                 width: 400px;
+         }
+
+         .intro-talk>p {
+                 width: 390px;
+                 margin: auto;
+         }
+
+         .section2,
+         .section3,
+         .section4,
+         .testimonials {
+                 display: flex;
+                 justify-content: space-around;
+                 margin: auto;
+         }
+
+         .ill1,
+         .ill2,
+         .ill3,
+         .ill4 {
+                 width: 300px;
+
+         }
+
+         .ill6 {
+                 margin-top: 200px;
+                 width: 420px;
+         }
+
+         .ill6>h3{
+                font-size: 2rem;
+                text-align: left;
+         }
+         .card {
+                 position: relative;
+                 margin-top: -10px;
+                 width: 400px;
+         }
+
+         .card .cardP {
+                 font-size: 1rem;
+         }
+
+         .crd {
+                 margin-top: 0px;
+                 margin-left: 35px;
+         }
+
+         .profile .name {
+                 padding-top: 10px;
+         }
+
+         .section6 {
+                 width: 600px;
+                 margin-top: 170px;
+                 margin-bottom: 50px;
+                 margin-left: 20px;
+                 margin-right: 20px;
+                 transform: translate(-50%, 0%);
+                 left: 50%;
+         }
+
+         .mail {
+                 display: flex;
+                 flex-direction: row;
+         }
+
+         .mail .input1 {
+                 width: 500px;
+                 margin-right: 20px;
+         }
+
+         .mail button {
+                 width: 00px;
+                 padding: 0px;
+                 letter-spacing: 0px;
+         }
+         .last-sct{
+                display: flex;
+                justify-content: space-around;
+         }
+         .location > p{
+                width: 280px;
+         }
+         .phone{
+                margin-top: 0px;
+         }
+         .details>p:nth-child(1), .docs>p:nth-child(1){
+                padding-top: 0px;
+         }
+         .fb-icon, .twt-icon, .int-icon{
+                width: 2.5rem;
+                height: 2.5rem;
+                padding-right: .567rem;
+         }
  }
